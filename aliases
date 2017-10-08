@@ -1,0 +1,6 @@
+[alias]
+	l = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%ad) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative --branches --tags --remotes
+	co = checkout
+	st = status
+	up = remote update -p
+	ff = merge --ff-only
