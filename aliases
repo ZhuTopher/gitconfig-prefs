@@ -4,3 +4,4 @@
 	st = status
 	up = remote update -p
 	ff = merge --ff-only
+	amend = commit --amend --no-edit
