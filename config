@@ -5,5 +5,8 @@
 	up = remote update -p
 	ff = merge --ff-only
 	amend = commit --amend --no-edit
+	addall = add --no-ignore-removal
 [push]
         default = upstream
+[merge]
+        defaultToUpstream = true
