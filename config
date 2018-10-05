@@ -6,6 +6,7 @@
 	ff = merge --ff-only
 	amend = commit --amend --no-edit
 	addall = add --no-ignore-removal
+	merge-commit = merge --commit --no-ff
 [push]
         default = upstream
 [merge]
