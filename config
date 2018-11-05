@@ -9,5 +9,6 @@
 	merge-commit = merge --commit --no-ff
 [push]
         default = upstream
+        followTags = true
 [merge]
         defaultToUpstream = true
